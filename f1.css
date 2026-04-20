@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body
 {
     background-image: url(images/Miami.png);
@@ -52,6 +54,7 @@ ul li a{
   text-decoration: none;
   justify-content: center;
   position: relative;
+  font-size: 23px;
 }
 
 
@@ -182,7 +185,7 @@ a:hover i.fa-github {
     color: rgb(133, 95, 95);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 24px;
@@ -226,8 +229,9 @@ a:hover i.fa-github {
     i {
         padding: 8px;
     }
-}
 
+    
+}
 
 
 
